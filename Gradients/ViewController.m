@@ -7,7 +7,7 @@
 //
 
 #import "ViewController.h"
-
+#import "GradientLabel.h"
 @interface ViewController ()
 
 @end
@@ -17,7 +17,17 @@
 - (void)viewDidLoad
 {
     [super viewDidLoad];
-	// Do any additional setup after loading the view, typically from a nib.
+    
+    // 1 Add the ImageView and set its image to "Stripe.png"
+    
+    // 2
+    GradientLabel *gradientLabel = [[GradientLabel alloc] initWithFrame:CGRectMake(20.0f, 20.0f, 280.0f, 100.0f)];
+    [gradientLabel setText:@"This Is A Gradient Label"];
+    [gradientLabel setTextAlignment:NSTextAlignmentCenter];
+
+    [gradientLabel setTextColor:[UIColor whiteColor]];
+    
+    [self.view addSubview:gradientLabel];
 }
 
 - (void)didReceiveMemoryWarning

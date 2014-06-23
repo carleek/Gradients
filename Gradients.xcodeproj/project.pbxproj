@@ -21,6 +21,8 @@
 		6EA70FE919587E1A00AA813B /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6EA70FCB19587E1A00AA813B /* UIKit.framework */; };
 		6EA70FF119587E1A00AA813B /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 6EA70FEF19587E1A00AA813B /* InfoPlist.strings */; };
 		6EA70FF319587E1A00AA813B /* GradientsTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 6EA70FF219587E1A00AA813B /* GradientsTests.m */; };
+		6EA70FFD19587E3A00AA813B /* Stripe.png in Resources */ = {isa = PBXBuildFile; fileRef = 6EA70FFC19587E3A00AA813B /* Stripe.png */; };
+		6EA710001958816C00AA813B /* GradientLabel.m in Sources */ = {isa = PBXBuildFile; fileRef = 6EA70FFF1958816C00AA813B /* GradientLabel.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -53,6 +55,9 @@
 		6EA70FEE19587E1A00AA813B /* GradientsTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "GradientsTests-Info.plist"; sourceTree = "<group>"; };
 		6EA70FF019587E1A00AA813B /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		6EA70FF219587E1A00AA813B /* GradientsTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = GradientsTests.m; sourceTree = "<group>"; };
+		6EA70FFC19587E3A00AA813B /* Stripe.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Stripe.png; sourceTree = "<group>"; };
+		6EA70FFE1958816C00AA813B /* GradientLabel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GradientLabel.h; sourceTree = "<group>"; };
+		6EA70FFF1958816C00AA813B /* GradientLabel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GradientLabel.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -117,7 +122,10 @@
 				6EA70FD919587E1A00AA813B /* Main.storyboard */,
 				6EA70FDC19587E1A00AA813B /* ViewController.h */,
 				6EA70FDD19587E1A00AA813B /* ViewController.m */,
+				6EA70FFE1958816C00AA813B /* GradientLabel.h */,
+				6EA70FFF1958816C00AA813B /* GradientLabel.m */,
 				6EA70FDF19587E1A00AA813B /* Images.xcassets */,
+				6EA70FFC19587E3A00AA813B /* Stripe.png */,
 				6EA70FCE19587E1A00AA813B /* Supporting Files */,
 			);
 			path = Gradients;
@@ -228,6 +236,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				6EA70FFD19587E3A00AA813B /* Stripe.png in Resources */,
 				6EA70FE019587E1A00AA813B /* Images.xcassets in Resources */,
 				6EA70FD219587E1A00AA813B /* InfoPlist.strings in Resources */,
 				6EA70FDB19587E1A00AA813B /* Main.storyboard in Resources */,
@@ -249,6 +258,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				6EA710001958816C00AA813B /* GradientLabel.m in Sources */,
 				6EA70FDE19587E1A00AA813B /* ViewController.m in Sources */,
 				6EA70FD819587E1A00AA813B /* AppDelegate.m in Sources */,
 				6EA70FD419587E1A00AA813B /* main.m in Sources */,
